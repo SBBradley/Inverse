@@ -37,6 +37,7 @@ class Inverse {
     System.out.println("Inverse time..." + "\n" + "Your name inversed is:");
     System.out.println();
     System.out.println(combineFullName(firstName, middleName, lastName));
+    System.out.println();
     }
 
     //This method reverses user's middle name.
