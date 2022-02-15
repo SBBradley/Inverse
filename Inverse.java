@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*
-* A game that inverses the letters in a user's name.
+* A program that inverses the letters in a user's name.
 * Date: Feb 14, 2022
 */
 class Inverse {
