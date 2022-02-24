@@ -3,7 +3,7 @@ A program that inverses the letters in a user's name.
 
 
 ## Console Interface
-Below is a screenshot of the program during execution:
+Below are screenshots of the program during execution:
 
 ![Screenshot of Eddie Van Halen](https://user-images.githubusercontent.com/97514020/154066050-ac983134-ac94-44f6-807c-93a9ec56cf32.png)
 
