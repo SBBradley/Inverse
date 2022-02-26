@@ -13,3 +13,5 @@ Below are screenshots of the program during execution:
 
 ## Video Demo
 Below is a short video demonstrating the program from start to finish:
+
+https://user-images.githubusercontent.com/97514020/155845961-54907d27-3a12-4fa3-bd9c-f4b524a8c604.mov
