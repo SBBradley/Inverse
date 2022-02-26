@@ -19,6 +19,9 @@ class Inverse {
     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
+    try {
+    System.out.println();
+    System.out.println();
     System.out.println();
     System.out.println("Enter first name.");
     firstName = scan.nextLine();
@@ -38,6 +41,12 @@ class Inverse {
     System.out.println();
     System.out.println(combineFullName(firstName, middleName, lastName));
     System.out.println();
+    }
+    catch (Exception ex) {
+        System.out.println("\n" + "An error occurred" + "\n");
+        ex.printStackTrace();
+        System.exit(0);
+    }
     }
 
     //This method reverses user's middle name.
