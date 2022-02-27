@@ -6,14 +6,14 @@ import java.util.Scanner;
 */
 class Inverse {
 
-    static String firstName = "";
-    static String firstNameInverse = "";
-    static String middleName = "";
-    static String middleNameInverse = "";
-    static String lastName = "";
-    static String lastNameInverse = "";
-    static String fullNameInverse = "";
-    static char letter;
+    private static String firstName = "";
+    private static String firstNameInverse = "";
+    private static String middleName = "";
+    private static String middleNameInverse = "";
+    private static String lastName = "";
+    private static String lastNameInverse = "";
+    private static String fullNameInverse = "";
+    private static char letter;
 
     //The main method will gather user's name with a scanner.
     public static void main(String[] args) {
