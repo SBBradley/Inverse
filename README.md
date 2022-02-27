@@ -1,7 +1,6 @@
 # Inverse
 A program that inverses the letters in a user's name.
 
-
 ## Console Interface
 Below are screenshots of the program during execution:
 
