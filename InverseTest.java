@@ -1,34 +1,51 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.BeforeClass;
 
 /*
 *Test case file for Inverse.java.
 *February 27, 2022
 */
+
 public class InverseTest {
 
-@Test
-public void firstNameTest() {
-assertEquals("nimajneb", Inverse.inverseFirstName("benjamin") );
+//Fixture initialization.
+@BeforeClass
+public void setUp() {
 }
 
-@Test
+@Test 
+public void firstNameTest() {
+String firstNameActual = Inverse.inverseFirstName("Benjamin");
+String firstNameExpected = "Nimajneb";
+assertEquals(firstNameExpected, firstNameActual);
+}
+
+@Test 
 public void middleNameTest() {
-assertEquals("ynnod", Inverse.inverseMiddleName("donny") );
+String middleNameActual = Inverse.inverseMiddleName("Donny");
+String middleNameExpected = "Ynnod";
+assertEquals(middleNameExpected, middleNameActual);
 }
 
 @Test
 public void lastNameTest() {
-assertEquals("nilknarf", Inverse.inverseLastName("franklin") );
+String lastNameActual = Inverse.inverseLastName("Franklin");
+String lastNameExpected = "Nilknarf";
+assertEquals(lastNameExpected, lastNameActual);
 }
 
 @Test
 public void combineFullNameTest1() {
-assertEquals("nimajneb ynnod nilknarf", Inverse.combineFullName("benjamin", "donny", "franklin") );
+String combineFullNameActual = Inverse.combineFullName("benjamin", "donny", "franklin"); 
+String combineFullNameExpected = "Nimajneb Ynnod Nilknarf";
+assertEquals(combineFullNameExpected, combineFullNameActual);
 }
 
 @Test
 public void combineFullNameTest2() {
-assertEquals("nimajneb nilknarf", Inverse.combineFullName("benjamin", "n/a", "franklin") );
+String combineFullNameActual = Inverse.combineFullName("benjamin", "n/a", "franklin"); 
+String combineFullNameExpected = "Nimajneb Nilknarf";
+assertEquals(combineFullNameExpected, combineFullNameActual);
 }
 }

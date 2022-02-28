@@ -55,8 +55,9 @@ class Inverse {
         for (int i = 0; i < firstName.length(); i++) {
             letter = firstName.charAt(i);
             firstNameInverse = letter + firstNameInverse;
+            firstNameInverse = firstNameInverse.toLowerCase();
         }
-        return firstNameInverse.capitalizeString();
+        return capitalizeString(firstNameInverse);
     }
 
     //This method reverses user's middle name.
@@ -65,8 +66,9 @@ class Inverse {
         for (int i = 0; i < middleName.length(); i++) {
             letter = middleName.charAt(i);
             middleNameInverse = letter + middleNameInverse;
+            middleNameInverse = middleNameInverse.toLowerCase();
         } 
-        return middleNameInverse.capitalizeString();
+        return capitalizeString(middleNameInverse);
     }
 
     //This method reverses user's last name.
@@ -75,8 +77,9 @@ class Inverse {
         for (int i = 0; i < lastName.length(); i++) {
             letter = lastName.charAt(i);
             lastNameInverse = letter + lastNameInverse;
+            lastNameInverse = lastNameInverse.toLowerCase();
         }
-        return lastNameInverse.capitalizeString();
+        return capitalizeString(lastNameInverse);
     }
 
     //This method combines each name into one full name depending on user's inputs.
@@ -89,7 +92,7 @@ class Inverse {
         else {
             fullNameInverse = inverseFirstName(firstName) + " " + inverseMiddleName(middleName) + " " + inverseLastName(lastName);
         }
-        return fullNameInverse.toLowerCase();
+        return fullNameInverse;
     }
     
     //Method to manually capitalize first letter in a string.
