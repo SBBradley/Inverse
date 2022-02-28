@@ -24,11 +24,11 @@ assertEquals("nilknarf", Inverse.inverseLastName("franklin") );
 
 @Test
 public void combineFullNameTest1() {
-assertEquals("nimajneb ynnod nilknarf", Inverse.combineFullName("Benjamin", "donny", "franklin") );
+assertEquals("nimajneb ynnod nilknarf", Inverse.combineFullName("benjamin", "donny", "franklin") );
 }
 
 @Test
 public void combineFullNameTest2() {
-assertEquals("nimajneb nilknarf", Inverse.combineFullName("Benjamin", "n/a", "franklin") );
+assertEquals("nimajneb nilknarf", Inverse.combineFullName("benjamin", "n/a", "franklin") );
 }
 }
