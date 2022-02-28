@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 
 /*
-*Test case file for Inverse.java.
+*Test case file for Inverse.java
 *February 27, 2022
 */
 
