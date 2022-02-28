@@ -6,7 +6,6 @@ import org.junit.BeforeClass;
 *Test case file for Inverse.java
 *February 27, 2022
 */
-
 public class InverseTest {
 
 //Fixture initialization.
