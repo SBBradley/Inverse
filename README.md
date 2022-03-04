@@ -1,4 +1,4 @@
-# Inverse
+# InverseName
 A program that inverses the letters in a user's name.
 
 ## Console Interface
