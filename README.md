@@ -1,6 +1,12 @@
 # InverseName
 A program that inverses the letters in a user's name.
 
+## Installation / Usage
+1. Fork this repo.
+2. Copy the link from the [Code] dropdown.
+3. Use [git clone "the link you copied"] in terminal of IDE.
+4. Run Inverse.java to use the program.
+
 ## Console Interface
 Below are screenshots of the program during execution:
 
