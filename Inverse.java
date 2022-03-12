@@ -37,7 +37,7 @@ class Inverse {
     scan.close();
 
     System.out.println();
-    System.out.println("Inverse time..." + "\n" + "Your name inversed is:");
+    System.out.println("Inverse time..." + "\n" + "Your inversed name is:");
     System.out.println();
     System.out.println(combineFullName(firstName, middleName, lastName));
     System.out.println();
