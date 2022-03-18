@@ -1,4 +1,4 @@
-# InverseName
+# Inverse-Name
 A program that inverses the letters in a user's name.
 
 ## Installation / Usage
